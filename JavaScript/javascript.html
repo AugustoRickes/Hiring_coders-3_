@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>process page javascript</title>
+    <!--Mostrando registros em uma variavel nome-->
+</head>
+<body>
+  <!--desenvolvendo um script em js para fazer um laco de repeticao -->
+    <h3>Criando laco de repeticao com FOR</h3>
+    
+    <p id="retorno"></p>
+
+    <script>
+        // criando uma variavel do tipo constante com um laco de repeticao
+        const nomes =["Bruna","Cristina","Luciana","Nicole","Wagner","Andre"];
+
+        //declarando uma variavel de retorno
+        let texto="";
+
+        //atribui o resultado da minha variavel constante para uma variavel local
+        for(let contador=0; contador<5; contador++){
+            texto+=nomes[contador]+"<br>";
+           
+           
+           //inserindo alertas
+           // alert(nomes[contador])
+
+            
+        };
+
+        //inserindo o conteudo de uma variavel para o nosso paragrafo
+        document.getElementById("retorno").innerHTML=texto;
+
+
+        
+
+    </script>
+</body>
+</html>
