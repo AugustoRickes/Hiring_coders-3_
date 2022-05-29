@@ -1,6 +1,7 @@
 //incluindo uma biblioteca
 const http = require('http');
-
+const url = require('url');
+const queryString = require('query-string');
 
 
 //definicao de endereco / URL
